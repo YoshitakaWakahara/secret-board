@@ -1,0 +1,8 @@
+{
+  "name": "secret-board",
+  "description": "annonymous bulltein board",
+  "repository": "https://github.com/Iris-Alice/secret-board",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
