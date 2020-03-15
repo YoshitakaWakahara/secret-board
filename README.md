@@ -1,6 +1,16 @@
 # secret-board(匿名掲示板)
 
-# 0.Functional requirements
+# 1.User Story
+
+1. 認証されたユーザーは、匿名で掲示板の閲覧・書き込みができる。
+
+1. 認証されたユーザーは、自身の投稿のみ削除ができる。
+
+1. 管理者は、誰が投降したかを知ることができる。
+
+1. 管理者は、すべての投稿を削除できる。
+
+# 2.Functional requirements
 
 1. ユーザーを認証すること
 
@@ -20,11 +30,11 @@
 
    1. 管理人にはどのアカウントの書き込みか判別させること
 
-# 1.UI
+# 3.UI
 
 https://xd.adobe.com/view/b30bcc8e-b150-4cdd-6007-decc8949295f-c53a/
 
-# 2.URI
+# 4.URI
 
 | Method | Path&Query | Process | Remarks |
 ----|---- | ---- | ---- |
@@ -34,7 +44,7 @@ https://xd.adobe.com/view/b30bcc8e-b150-4cdd-6007-decc8949295f-c53a/
 | GET | /logout | Logout | Release basic authentication |
 | GET | /favicon.ico | Favicon |  |
 
-# 3.Module
+# 5.Module
 
 | FilePath | Role |
 ---- | ---- |
@@ -43,3 +53,5 @@ https://xd.adobe.com/view/b30bcc8e-b150-4cdd-6007-decc8949295f-c53a/
 | lib/posts-handler.js | Response to /posts request |
 | lib/handler-utils.js | Response to other requests |
 | lib/post.js | Get, Add, Delete posts |
+
+# 6.Dependencies
