@@ -54,8 +54,3 @@ https://xd.adobe.com/view/b30bcc8e-b150-4cdd-6007-decc8949295f-c53a/
 | lib/handler-utils.js | Response to other requests |
 | lib/post.js | Get, Add, Delete posts |
 
-# 6.Dependencies
-
-1. Node.js
-
-1. Yarn
